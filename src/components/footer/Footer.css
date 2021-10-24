@@ -1,0 +1,16 @@
+#footer {
+    background-color: var(--primaryColor);
+    width: 100%;
+    padding: 40px;
+    color: var(--whiteColor);
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+#footer .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 1s ease-in-out;
+}

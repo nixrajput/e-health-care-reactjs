@@ -1,0 +1,32 @@
+#auth-page .form-area {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+#auth-page .form-area .form-card {
+    background-color: var(--whiteColor);
+    width: 100%;
+    max-width: 600px;
+    box-shadow: var(--boxShadowMin);
+    border-radius: 15px;
+    padding: 40px;
+}
+
+@media (max-width: 768px) {
+
+    #auth-page .form-area {
+        padding: 20px;
+    }
+
+    #auth-page .form-area .form-card {
+        background-color: transparent;
+        max-width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0 20px;
+    }
+}
