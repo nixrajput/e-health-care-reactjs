@@ -1,0 +1,62 @@
+#about{
+    width: 100%;
+    min-height: 75vh;
+    position: relative;
+    transition: all 1s ease-in;
+}
+
+#about .title{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.desc {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tools{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tools div{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.devs{
+    background-color: var(--whiteColor);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.devs .dev{
+    margin-bottom: 10px;
+}
+
+.devs .dev .designation {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.devs .dev .name{
+    font-size: 20px;
+    font-weight: 700;
+}
